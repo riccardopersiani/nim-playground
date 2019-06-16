@@ -30,3 +30,21 @@ of 0..5: echo "Very funny or very smart!"
 of 6..30: echo "Nice!"
 of 31..150: echo "Oh, you are getting older..."
 else: echo "Bro, think about it, makes no sense...."
+
+var nationality: string
+while true:
+  echo "Do you come from the UK? (yes/no)"
+  let answer: string = readLine(stdin)
+  if answer == "yes":
+    nationality = "UK"
+    break
+  elif answer == "no":
+    nationality = "Not UK"
+    break
+  else:
+    echo "Answer not accepted!"
+echo "Nationality: ", nationality
+
+
+
+
